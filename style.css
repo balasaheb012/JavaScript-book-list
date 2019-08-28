@@ -1,0 +1,79 @@
+*,
+*:after,
+*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 100%;
+}
+body{
+    box-sizing: border-box;
+    padding: 1.5rem;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 1px solid #000;
+	width:70%;
+	background-color:lightblue;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+}
+#book-form{
+	margin-left:20%;
+    padding: 10px;
+}
+input{
+	height:30px;
+	width:50%;
+}
+.alert{
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+}
+.success{
+    background-color: green;
+    color: #ffffff;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#submit{
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+table{
+    text-align: center;
+    margin-left: 2.5rem;
+}
+thead{
+    font-size: 1.6rem;
+}
+th{
+    padding-left: 1rem;
+}
+td{
+    font-size: 1.4rem;
+    padding-left: 1rem; 
+}
+a:link,
+a:visited{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+label{
+	font-family:Arial,Bold;
+	font-size:18px;
+}	
+hr{
+		height:5px;
+	
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Book List</title>
+</head>
+<body style="background-color:gray;">
+    <div class="container">
+	<hr>
+        <h1>Add Book</h1>
+		<hr>
+        <form action="" id="book-form">
+            <div style="margin-top:3%;">
+                <label for="title">Title</label>
+                <input type="text" id="title" style="margin-left:10%;">
+            </div>
+            <div style="margin-top:2%;">
+                <label for="author">Author</label>
+                <input type="text" id="author" style="margin-left:7.5%;">
+            </div >
+            <div style="margin-top:2%;">
+                <label for="ISBN">ISBN#</label>
+                <input type="text" id="ISBN" style="margin-left:8%;">
+            </div>
+            <div style="margin-top:2%;margin-bottom:3%;">
+                <input type="submit" value="Add" id="submit" style="margin-left:16.5%;">
+            </div>
+        </form>
+        <hr>
+        <table style="margin-top:2%; margin-left:10%;" cellspacing=10>
+            <thead >
+                <tr>
+                    <th>Book Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="appes6.js"></script>
+</body>
+</html>
